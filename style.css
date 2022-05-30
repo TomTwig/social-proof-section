@@ -9,5 +9,108 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: red;
+    background-image: url(images/bg-pattern-top-desktop.svg);
+
 }
+
+img{
+    
+}
+
+.container{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+}
+
+.section-top{
+    display: flex;
+    
+
+}
+
+.header{ 
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 2px green solid;
+    
+}
+.rating{
+    flex: 1;
+    border: 2px saddlebrown solid;
+    
+}
+.rating__content{ 
+    display: flex;
+    align-items: center;
+background-color: antiquewhite;
+margin: 1em;}
+.rating__content__stars{
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.rating__content p{
+    flex: 1;
+}
+.rating__content__stars img{
+    width: 20px;
+    height: 20px;
+}
+
+.rating p{
+    
+    padding: 1em;
+    border-radius: 15px;
+}
+
+.section-bottom{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border: solid 2px red;
+    gap: 1.5em;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 1.5em;
+    background-color: blueviolet;
+    border-radius: 10px;
+    max-height: 300px;
+    max-width:300px ;
+    gap: 1em;
+    
+
+
+}
+.card__customer{
+    display: flex;
+    
+}
+.card__customer__picture{
+    border-radius: 50%;
+    width: 40px;
+}
+.card__customer__info{
+    margin-left: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
