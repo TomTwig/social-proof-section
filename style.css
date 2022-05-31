@@ -41,18 +41,34 @@ img{
     flex: 1;
     border: 2px saddlebrown solid;
     
+
+    
 }
 .rating__content{ 
     display: flex;
     align-items: center;
 background-color: antiquewhite;
 margin: 1em;}
+
+.rating__content:nth-child(1){
+    margin-left: 3em;
+} 
+.rating__content:nth-child(2){
+    margin-left: 6em;
+} 
+.rating__content:nth-child(3){
+    margin-left: 9em;
+} 
+
 .rating__content__stars{
     flex: 1;
     display: flex;
     justify-content: space-evenly;
     
 }
+
+
+
 .rating__content p{
     flex: 1;
 }
@@ -79,16 +95,12 @@ margin: 1em;}
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     padding: 1.5em;
     background-color: blueviolet;
     border-radius: 10px;
     max-height: 300px;
     max-width:300px ;
     gap: 1em;
-    
-
-
 }
 .card__customer{
     display: flex;
