@@ -1,3 +1,16 @@
+:root{
+
+    --color-primary-veryDarkMagenta:hsl(300, 43%, 22%);
+    --color-primary-softPink: hsl(333, 80%, 67%);
+
+    --color-neutral-DarkGrayishMagenta:  hsl(303, 10%, 53%);
+    --color-neutral-LightGrayishMagenta: hsl(300, 24%, 96%);
+    --color-neutral-White: hsl(0, 0%, 100%);
+
+    --font-primary: 'League Spartan', sans-serif;
+}
+
+
 *,*::after,*::before{
     margin: 0;
     padding: 0;
@@ -10,41 +23,58 @@ body{
     justify-content: center;
     height: 100vh;
     background-image: url(images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+    font-family: var(--font-primary);
+    font-size: 15px;
+    
 
 }
 
 img{
-    
+    width: 100%;
 }
 
 .container{
     width: 70vw;
     display: flex;
     flex-direction: column;
+    width: 100%;
     gap: 4em;
+    align-items:center
 }
 
 .section-top{
     display: flex;
-    
-
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header{ 
     display: flex;
     flex-direction: column;
-    flex: 1;
+ 
+    gap: 1em;
+    max-width: 400px;
+}
 
-    
+.header h1{
+font-size: 3rem;
+font-weight: 700;
+color: var(--color-primary-veryDarkMagenta);
+}
+
+.header p{
+    color: var(--color-neutral-DarkGrayishMagenta);
+    font-weight: 500;
+    line-height: 1.5em;
 }
 .rating{
-
 }
 
 .rating__content{ 
     display: flex;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: var(--color-neutral-LightGrayishMagenta);
     margin: 1em;
     width: 400px;
 }
@@ -61,8 +91,10 @@ img{
 
 
 .rating__content p{
-    flex: 1;
     text-align: center;
+    font-weight: 700;
+    
+    color: var(--color-primary-veryDarkMagenta);
 }
 
 .rating__content__stars img{
@@ -83,9 +115,10 @@ img{
 .section-bottom{
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    gap: 2em;
+    
 
-    gap: 1.5em;
+    
 }
 
 .card{
@@ -93,20 +126,25 @@ img{
     flex-direction: column;
     justify-content: center;
     padding: 1.5em;
-    background-color: blueviolet;
+    background-color: var(--color-primary-veryDarkMagenta);
     border-radius: 10px;
-    height: 300px;
-
-
+    height: 200px;
+    max-width: 400px;
+    color: var(--color-neutral-White);
     gap: 1em;
 }
 
+.card > p{
+    width: 250px;
+}
+
+
 .customer-2{
-    margin-top: 5em;
+    margin-top: 1em;
 }
 
 .customer-3{
-    margin-top: 10em;
+    margin-top: 2em;
 }
 
 
@@ -124,6 +162,9 @@ img{
     flex-direction: column;
 }
 
+.card__customer__info p:last-child{
+    color: var(--color-primary-softPink);
+}
 .rating-2{
     margin-left: 5em;
     }
