@@ -25,7 +25,7 @@ body{
     background-image: url(images/bg-pattern-top-desktop.svg);
     background-repeat: no-repeat;
     font-family: var(--font-primary);
-    font-size: 15px;
+    font-size: 15px
 }
 
 img{
@@ -49,8 +49,8 @@ img{
 .info{ 
     display: flex;
     flex-direction: column;
-    flex: .5;
     gap: 1em;
+    flex: .8;
 }
 
 .info h1{
@@ -73,11 +73,9 @@ color: var(--color-primary-veryDarkMagenta);
 
 .rating p{
     padding: 1em;
-    font-size: 1.2em;
 }
 
 .rating__content{ 
-    width: 400px;
     display: flex;
     align-items: center;
     background-color: var(--color-neutral-LightGrayishMagenta);
@@ -92,7 +90,7 @@ color: var(--color-primary-veryDarkMagenta);
 }
 
 .rating-1{
-    margin-right: 5em;
+    margin-right: 6em;
 }
 .rating-2{
     margin-right: 2em;
@@ -119,13 +117,13 @@ color: var(--color-primary-veryDarkMagenta);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2em;
+    padding: 1em;
     background-color: var(--color-primary-veryDarkMagenta);
     border-radius: 10px;
     color: var(--color-neutral-White);
     gap: 1em;
-    line-height: 1.5em;
-    height: 200px;   
+    line-height: 1.5em;  
+    height: 200px;
 }
 
 .customer-2{
