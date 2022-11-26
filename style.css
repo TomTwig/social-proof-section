@@ -18,6 +18,9 @@
 }
 
 body{
+    gap: 5em;
+    padding: 10em;
+    flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -132,7 +135,6 @@ color: var(--color-primary-veryDarkMagenta);
     color: var(--color-neutral-White);
     gap: 1em;
     line-height: 1.5em;  
-    height: 200px;
 }
 
 .customer-2{
